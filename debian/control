@@ -1,7 +1,7 @@
 Source: f-engrave
 Section: unknown
 Priority: optional
-Maintainer: unknown <seb@highlab.com>
+Maintainer: Sebastian Kuzminsky <seb@highlab.com>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 Homepage: http://www.scorchworks.com/Fengrave/fengrave.html
