@@ -1,3 +1,4 @@
+Description: teach the TTF2CXF_STREAM Makefile to install into DESTDIR
 Index: F-Engrave-1.58_src/TTF2CXF_STREAM/Makefile
 ===================================================================
 --- F-Engrave-1.58_src.orig/TTF2CXF_STREAM/Makefile	2013-07-21 23:03:00.000000000 -0600

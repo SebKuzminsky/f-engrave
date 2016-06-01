@@ -1,3 +1,5 @@
+Description: Convert the f-engrave python script from Dos to Unix line
+    endings.
 Index: F-Engrave-1.58_src/f-engrave-158.py
 ===================================================================
 --- F-Engrave-1.58_src.orig/f-engrave-158.py	2016-05-02 20:13:38.000000000 -0600
