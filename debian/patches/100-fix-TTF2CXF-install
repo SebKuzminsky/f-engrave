@@ -1,0 +1,13 @@
+Index: F-Engrave-1.58_src/TTF2CXF_STREAM/Makefile
+===================================================================
+--- F-Engrave-1.58_src.orig/TTF2CXF_STREAM/Makefile	2013-07-21 23:03:00.000000000 -0600
++++ F-Engrave-1.58_src/TTF2CXF_STREAM/Makefile	2016-06-01 13:53:33.960158692 -0600
+@@ -11,7 +11,7 @@
+ 
+ install: linux
+ 	@echo "Installing... ttf2cxf_stream"
+-	/usr/bin/install -m 755 -t /usr/local/bin ttf2cxf_stream
++	install -m 755 -t $(DESTDIR)/bin ttf2cxf_stream
+ 	@echo "Done Installing..."
+ 
+ win:
