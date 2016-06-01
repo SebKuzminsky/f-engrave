@@ -13,5 +13,5 @@ Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, potrace
 Description: F-Engrave is a text or image to g-code program for engraving and v-carving
  F-Engrave is a text or image to g-code program (for both engraving and
- v-carving) that is written in python and is based on the text engraving
+ v-carving) that is written in Python and is based on the text engraving
  software (engrave-11) available in the LinuxCNC Wiki.
