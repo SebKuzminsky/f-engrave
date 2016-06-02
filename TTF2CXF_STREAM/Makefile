@@ -3,6 +3,7 @@
 # Date: 6/28/2013
 
 WIN_BASEDIR = freetype-2.3.5-1-lib
+DESTDIR ?= /usr/local
 
 all: linux
 
@@ -11,6 +12,7 @@ linux:
 
 install: linux
 	@echo "Installing... ttf2cxf_stream"
+	install -d $(DESTDIR)/bin
 	install -m 755 -t $(DESTDIR)/bin ttf2cxf_stream
 	@echo "Done Installing..."
 
