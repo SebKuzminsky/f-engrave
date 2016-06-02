@@ -11,7 +11,7 @@ linux:
 
 install: linux
 	@echo "Installing... ttf2cxf_stream"
-	/usr/bin/install -m 755 -t /usr/local/bin ttf2cxf_stream
+	install -m 755 -t $(DESTDIR)/bin ttf2cxf_stream
 	@echo "Done Installing..."
 
 win:
