@@ -1,3 +1,5 @@
+DESTDIR ?= /usr/local
+
 .PHONY: all
 all: f-engrave
 	make -C TTF2CXF_STREAM linux
@@ -11,5 +13,6 @@ install: f-engrave
 	install -m 755 f-engrave $(DESTDIR)/bin/f-engrave
 	make -C TTF2CXF_STREAM install
 
+.PHONY: clean
 clean:
 	rm -f f-engrave
