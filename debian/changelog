@@ -1,5 +1,5 @@
-f-engrave (1.58-1) unstable; urgency=low
+f-engrave (1.58.linuxcnc1) unstable; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release (based on F-Engrave 1.58 from Scorch Works).
 
- -- unknown <seb@highlab.com>  Wed, 01 Jun 2016 13:40:56 -0600
+ -- Sebastian Kuzminsky <seb@highlab.com>  Wed, 01 Jun 2016 13:40:56 -0600
